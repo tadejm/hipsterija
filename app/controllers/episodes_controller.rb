@@ -5,6 +5,7 @@ class EpisodesController < ApplicationController
     respond_to do |format|
       format.html
       format.atom  { @episodes }
+      format.itunes
     end
   end
 
