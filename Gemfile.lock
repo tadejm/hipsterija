@@ -29,12 +29,26 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     arel (3.0.2)
+    bootstrap-sass (2.0.4.0)
     builder (3.0.0)
+    coffee-rails (3.2.2)
+      coffee-script (>= 2.2.0)
+      railties (~> 3.2.0)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.3.3)
     erubis (2.7.0)
+    execjs (1.3.1)
+      multi_json (~> 1.0)
     hike (1.2.1)
     i18n (0.6.0)
     journey (1.0.4)
+    jquery-rails (1.0.19)
+      railties (~> 3.0)
+      thor (~> 0.14)
     json (1.7.3)
+    libv8 (3.3.10.4)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -59,6 +73,9 @@ GEM
       activesupport (= 3.2.6)
       bundler (~> 1.0)
       railties (= 3.2.6)
+    rails-behaviors (0.4.0)
+      coffee-script-source (~> 1.1)
+      sprockets (~> 2.0)
     railties (3.2.6)
       actionpack (= 3.2.6)
       activesupport (= 3.2.6)
@@ -82,19 +99,30 @@ GEM
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
     temple (0.4.0)
+    therubyracer (0.10.0)
+      libv8 (~> 3.3.10)
     thor (0.15.4)
     tilt (1.3.3)
     treetop (1.4.10)
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.33)
+    uglifier (1.2.4)
+      execjs (>= 0.3.0)
+      multi_json (>= 1.0.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (~> 2.0.4.0)
+  coffee-rails
+  jquery-rails
   nokogiri
   pg
   rails (~> 3.2.6)
-  sass-rails (~> 3.2.3)
+  rails-behaviors
+  sass-rails
   slim
+  therubyracer
+  uglifier
