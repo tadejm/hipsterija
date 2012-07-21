@@ -1,1 +1,1 @@
-iOS friendly vesion of http://radiostudent.si/p/hipsterija/
+HTML5 audio friendly vesion of http://radiostudent.si/p/hipsterija/ archive
