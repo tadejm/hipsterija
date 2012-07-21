@@ -6,7 +6,7 @@ html lang='en'
 
     title Hipsterija in HTML5 (before it was cool)
 
-    = stylesheet_link_tag 'application'
+    = stylesheet_link_tag 'application', media: 'all'
     = auto_discovery_link_tag(:atom, episodes_path(:atom))
 
     = csrf_meta_tags
