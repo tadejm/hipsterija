@@ -1,0 +1,9 @@
+doctype 5
+html
+  head
+    title Hipsterija in HTML5 (before it was cool)
+    = stylesheet_link_tag    'application', media='all'
+    = csrf_meta_tags
+    = auto_discovery_link_tag(:atom, episodes_path(:atom))
+  body
+    = yield
