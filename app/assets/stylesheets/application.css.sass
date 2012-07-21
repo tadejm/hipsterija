@@ -1,0 +1,22 @@
+$navbarBackground: #ddba3d
+$navbarBackgroundHighlight: #ddba3d + 20
+$navbarBrandColor: #3f2908
+
+
+$bodyBackground: #eee
+
+@import 'bootstrap'
+
+body
+  padding-top: 3*$baseLineHeight
+
+#container
+  @extend .container
+
+#container > header
+  @extend .navbar
+  @extend .navbar-fixed-top
+  @extend .navbar-inner
+
+  .brand
+    font-weight: bold
