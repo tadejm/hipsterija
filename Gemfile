@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-rails_version = '~> 3.2.6'
+rails_version = '~> 3.2.13'
 
 gem 'rails', rails_version
 
@@ -16,7 +16,7 @@ gem 'jquery-rails'
 # in production environments by default.
 group :assets do
   gem 'rails-behaviors'
-  gem 'bootstrap-sass', '~> 2.0.4.0'
+  gem 'bootstrap-sass'
   gem 'coffee-rails'
   gem 'uglifier'
 end
